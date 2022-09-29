@@ -5,20 +5,21 @@
       "description" : ""
     },
     "configuration" : null,
-    "createdTime" : 1664298132026,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "211a39a0-3e86-11ed-b07d-db153f599c0d"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "215260a1-3e86-11ed-b07d-db153f599c0d"
+      "id" : "83ef6e80-3fc4-11ed-8caf-ed983b56e158"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
       "id" : "211a39a0-3e86-11ed-b07d-db153f599c0d"
     },
     "name" : "StageZero Customised Root Rule Chain",
-    "root" : false,
-    "tenantId" : null,
+    "root" : true,
     "type" : "CORE"
   },
   "metaData" : {
@@ -252,7 +253,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214bf800-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ed4ba0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Save ConnType",
       "ruleChainId" : null,
@@ -271,7 +272,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214e6900-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ed99c0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Set ConnType telemetry attribute",
       "ruleChainId" : null,
@@ -283,14 +284,14 @@
         "layoutY" : 680
       },
       "configuration" : {
-        "ruleChainId" : "7cb365f0-2f7e-11ed-aeba-e3dbc53fd55c"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214e9010-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83edc0d0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "rest api request",
       "ruleChainId" : null,
@@ -309,7 +310,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214eb720-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83edc0d1-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "RPC request transform",
       "ruleChainId" : null,
@@ -330,7 +331,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214f7a70-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83edc0d2-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "reply",
       "ruleChainId" : null,
@@ -342,14 +343,14 @@
         "layoutY" : 657
       },
       "configuration" : {
-        "ruleChainId" : "fec87280-d51d-11ec-902f-6906a1b833ac"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214f7a71-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ede7e0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Generate Report",
       "ruleChainId" : null,
@@ -370,7 +371,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214fa180-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ede7e1-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "is battery_SOC_minimum ?",
       "ruleChainId" : null,
@@ -378,18 +379,18 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 1378,
-        "layoutY" : 470
+        "layoutX" : 1373,
+        "layoutY" : 465
       },
       "configuration" : {
-        "ruleChainId" : "39b052b0-3e86-11ed-b07d-db153f599c0d"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214fc890-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee0ef0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Attribute Save",
       "ruleChainId" : null,
@@ -401,14 +402,14 @@
         "layoutY" : 117
       },
       "configuration" : {
-        "ruleChainId" : "08338df0-12f4-11ed-aeba-e3dbc53fd55c"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "214fefa0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee0ef1-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Attributes Processing",
       "ruleChainId" : null,
@@ -427,7 +428,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "215016b0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee3600-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Clear alarmState attribute",
       "ruleChainId" : null,
@@ -447,7 +448,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21503dc0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee3601-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Save alarmState attribute",
       "ruleChainId" : null,
@@ -466,7 +467,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21508be0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee5d10-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Set alarmState attribute",
       "ruleChainId" : null,
@@ -478,14 +479,14 @@
         "layoutY" : 750
       },
       "configuration" : {
-        "ruleChainId" : "7cb365f0-2f7e-11ed-aeba-e3dbc53fd55c"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2150b2f0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee5d11-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Diagnostics RPC check",
       "ruleChainId" : null,
@@ -504,7 +505,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2150b2f1-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee8420-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "is diagnostic test?",
       "ruleChainId" : null,
@@ -523,7 +524,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2150da00-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee8421-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "store to TD (Diagnostic)",
       "ruleChainId" : null,
@@ -542,7 +543,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2150da01-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ee8422-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "store RPC result (Diagnostic)",
       "ruleChainId" : null,
@@ -561,7 +562,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21510110-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83eeab30-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "store RPC result (Diagnostic)",
       "ruleChainId" : null,
@@ -590,7 +591,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21510111-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83eeab31-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Create inactivity alarm",
       "ruleChainId" : null,
@@ -610,7 +611,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21512820-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83eed240-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Clear inactivity Alarm",
       "ruleChainId" : null,
@@ -630,7 +631,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21514f30-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83eed241-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Save Attributes",
       "ruleChainId" : null,
@@ -649,7 +650,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21514f31-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83eed242-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Message Type Switch",
       "ruleChainId" : null,
@@ -668,7 +669,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21514f32-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83eef950-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Log Other",
       "ruleChainId" : null,
@@ -687,7 +688,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21517640-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef2060-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "RPC Call to Controller",
       "ruleChainId" : null,
@@ -706,7 +707,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2151eb70-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef2061-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "if RPC activate parms",
       "ruleChainId" : null,
@@ -724,7 +725,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21521280-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef2062-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Is Entity Group",
       "ruleChainId" : null,
@@ -742,7 +743,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21523990-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef4770-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Post attributes or RPC request",
       "ruleChainId" : null,
@@ -761,7 +762,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "215260a0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef4771-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Duplicate To Group Entities",
       "ruleChainId" : null,
@@ -781,7 +782,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "215260a1-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef6e80-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Device Profile Node",
       "ruleChainId" : null,
@@ -801,7 +802,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21537210-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef6e81-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "save shared attr",
       "ruleChainId" : null,
@@ -820,7 +821,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2153e740-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef9590-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "if Battery Min SOC parms",
       "ruleChainId" : null,
@@ -841,7 +842,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2153e741-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef9591-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "save telemtry",
       "ruleChainId" : null,
@@ -853,14 +854,14 @@
         "layoutY" : 241
       },
       "configuration" : {
-        "ruleChainId" : "b81166d0-0736-11ed-aeba-e3dbc53fd55c"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21540e50-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83ef9592-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Telemetry processing",
       "ruleChainId" : null,
@@ -872,14 +873,14 @@
         "layoutY" : 32
       },
       "configuration" : {
-        "ruleChainId" : "3c305c00-f6f7-11ec-835e-155652c12fff"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21540e51-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83efbca0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Clear alarm",
       "ruleChainId" : null,
@@ -898,7 +899,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21543560-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83efbca1-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Is this Device?",
       "ruleChainId" : null,
@@ -910,14 +911,14 @@
         "layoutY" : 668
       },
       "configuration" : {
-        "ruleChainId" : "35cdafb0-f658-11ec-835e-155652c12fff"
+        "ruleChainId" : "b7e477c0-3778-11ed-824d-8f82dcd915c5"
       },
       "createdTime" : 0,
       "debugMode" : true,
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21548380-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83efbca2-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Provisioning new controller defaults",
       "ruleChainId" : null,
@@ -936,7 +937,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2154aa90-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83efe3b0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Connect event to Server",
       "ruleChainId" : null,
@@ -955,7 +956,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2154d1a0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83efe3b1-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Disconnect event to server",
       "ruleChainId" : null,
@@ -975,7 +976,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2154d1a1-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83f00ac0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Save Server attribute",
       "ruleChainId" : null,
@@ -994,7 +995,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2154f8b0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83f00ac1-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "trap outg RPC calls",
       "ruleChainId" : null,
@@ -1013,7 +1014,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "2154f8b1-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83f00ac2-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "Alarm cleared",
       "ruleChainId" : null,
@@ -1037,7 +1038,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21551fc0-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83f031d0-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "get SOC minimum",
       "ruleChainId" : null,
@@ -1056,7 +1057,7 @@
       "externalId" : null,
       "id" : {
         "entityType" : "RULE_NODE",
-        "id" : "21551fc1-3e86-11ed-b07d-db153f599c0d"
+        "id" : "83f031d1-3fc4-11ed-8caf-ed983b56e158"
       },
       "name" : "rpc result",
       "ruleChainId" : null,
